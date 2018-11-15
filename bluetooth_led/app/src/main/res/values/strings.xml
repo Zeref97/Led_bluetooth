@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">bluetooth_led</string>
+    <string name="title_activity_device_list">DeviceList</string>
+</resources>
