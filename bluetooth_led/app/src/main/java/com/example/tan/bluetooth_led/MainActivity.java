@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(bluetoothSocket!=null){
                     try {
-                        bluetoothSocket.getOutputStream().write(1);//gửi dữ liệu đi
+                        bluetoothSocket.getOutputStream().write('1');//gửi dữ liệu đi
                     }catch(IOException exception){
 
                     }
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(bluetoothSocket!=null){
                     try {
-                        bluetoothSocket.getOutputStream().write(0);//gửi dữ liệu đi
+                        bluetoothSocket.getOutputStream().write('0');//gửi dữ liệu đi
                     }catch(IOException exception){
 
                     }
